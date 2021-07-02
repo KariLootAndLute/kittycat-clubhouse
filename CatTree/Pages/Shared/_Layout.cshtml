@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LootandLute</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<style>
+    .follow-us {
+        float:right;
+        align-content:center;
+    }
+    .follow-us img
+    {
+        height: 25px;
+        width: 25px;
+    }
+    .footer-left
+    {float:left;
+     align-content: center;
+    }
+    .footer-top{
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <div class="menu-logo">
+                    <img src="~/images/newlogo.png"  alt="Loot and Lute logo" width="75" height="75">
+                </div>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">LootandLute</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Games/Index">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/YouTube/Index">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-center">
+            <a href="https://mailchi.mp/93eaa20f52c0/lootandlute" style="text-decoration: none"><font face="roboto" size="5" color="#2DAC94">Click <font color="#D76395">Here</font> to Sign Up for Updates!</font></a>
+        </div>
+        <div class="footer-left justify-content-lg-start">
+            &copy; 2021 - LootandLute - <a href="mailto:contact@lootandlute.com">Contact</a>
+        </div>
+        <div class="follow-us">
+            Follow Us
+            <a href="https://www.facebook.com/lootandlute/">
+                <img src="~/images/facebook.jpg">
+            </a>
+            <a href="https://twitter.com/lootandlute">
+                <img src="~/images/twitter.jpg" />
+            </a>
+            <a href="https://www.instagram.com/lootandlute/">
+                <img src="~/images/instagram.jpg" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
