@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CatToys.Data/1.0.0": {
+        "dependencies": {
+          "CatToys": "1.0.0"
+        },
+        "runtime": {
+          "CatToys.Data.dll": {}
+        }
+      },
+      "CatToys/1.0.0": {
+        "runtime": {
+          "CatToys.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CatToys.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CatToys/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatTree", "CatTree.csproj", "{A9A44430-47D6-44B0-84A7-16678700AD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatTree", "CatTree.csproj", "{A9A44430-47D6-44B0-84A7-16678700AD40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatToys", "..\CatToys\CatToys.csproj", "{06ED2945-B296-4332-A20A-8FC452EE0824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatToys.Data", "..\CatToys.Data\CatToys.Data.csproj", "{34A4B678-C8E7-48EA-B28C-DB1ED0071AB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A9A44430-47D6-44B0-84A7-16678700AD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A44430-47D6-44B0-84A7-16678700AD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9A44430-47D6-44B0-84A7-16678700AD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06ED2945-B296-4332-A20A-8FC452EE0824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ED2945-B296-4332-A20A-8FC452EE0824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ED2945-B296-4332-A20A-8FC452EE0824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06ED2945-B296-4332-A20A-8FC452EE0824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A4B678-C8E7-48EA-B28C-DB1ED0071AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A4B678-C8E7-48EA-B28C-DB1ED0071AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A4B678-C8E7-48EA-B28C-DB1ED0071AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A4B678-C8E7-48EA-B28C-DB1ED0071AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

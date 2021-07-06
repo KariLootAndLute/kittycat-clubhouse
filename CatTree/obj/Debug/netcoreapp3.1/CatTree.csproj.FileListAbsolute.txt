@@ -35,3 +35,10 @@ C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\obj\De
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\obj\Debug\netcoreapp3.1\CatTree.pdb
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\obj\Debug\netcoreapp3.1\CatTree.genruntimeconfig.cache
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\obj\Debug\netcoreapp3.1\CatTree.csproj.CopyComplete
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Index.cshtml.g.cs
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\CatToys.Data.dll
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\CatToys.dll
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\CatToys.Data.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\CatToys.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\wwwroot\images\caticon.png
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatTree\bin\Debug\netcoreapp3.1\wwwroot\images\puppyicon.png

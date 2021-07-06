@@ -1,7 +1,23 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.follow-us {
+    width: 30%;
+    float: right;
+}
 
+    .follow-us img {
+        height: 25px;
+        width: 25px;
+    }
+
+.footer-left {
+    width: 30%;
+    float: left;
+}
+
+.footer-top {
+}
 
 
 
