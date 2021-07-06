@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\YouTube\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
