@@ -7,7 +7,7 @@
 <table class="table"
        @foreach (var game in Model.games) { 
     <tr>
-        <th rowspan="2"><img src=@game.image alt=@game.imageAlt ></th>
+        <th rowspan="2"><img src="@game.image" alt="@game.imageAlt" ></th>
         <th>@game.Name</th>
         <th>@game.minAge</th>
         <th>@game.numberOfPeople</th>
