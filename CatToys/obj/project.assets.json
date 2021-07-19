@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys\\CatToys.csproj",
+      "projectUniqueName": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys\\CatToys.csproj",
       "projectName": "CatToys",
-      "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys\\CatToys.csproj",
+      "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys\\CatToys.csproj",
       "packagesPath": "C:\\Users\\u2lis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys\\obj\\",
+      "outputPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

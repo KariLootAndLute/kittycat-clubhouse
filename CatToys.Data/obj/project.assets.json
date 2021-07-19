@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys.Data\\CatToys.Data.csproj",
+      "projectUniqueName": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys.Data\\CatToys.Data.csproj",
       "projectName": "CatToys.Data",
-      "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys.Data\\CatToys.Data.csproj",
+      "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys.Data\\CatToys.Data.csproj",
       "packagesPath": "C:\\Users\\u2lis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys.Data\\obj\\",
+      "outputPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys\\CatToys.csproj": {
-              "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse\\CatToys\\CatToys.csproj"
+            "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys\\CatToys.csproj": {
+              "projectPath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatToys\\CatToys.csproj"
             }
           }
         }
