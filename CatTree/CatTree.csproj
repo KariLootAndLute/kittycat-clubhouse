@@ -9,6 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.0.2" />
+    <PackageReference Include="glyphicon" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CatToys.Data\CatToys.Data.csproj" />
   </ItemGroup>
 

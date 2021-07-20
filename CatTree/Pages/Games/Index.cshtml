@@ -4,7 +4,23 @@
 }
 
 <h1>Games</h1>
-<table class="table"
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" value="" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search">
+
+                    </i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
        @foreach (var game in Model.games) { 
     <tr>
         <th rowspan="2"><img src="@game.image" alt="@game.imageAlt" ></th>

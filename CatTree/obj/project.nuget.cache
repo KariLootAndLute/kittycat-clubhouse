@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HPA8F/REF0hzwq9dO1T4KvqHk1E18j2/j5mAZnA7/ToT6U9WQZuzbEBrDXTtWkEMS8td4x/jyaeouk8/xGvFCA==",
+  "dgSpecHash": "daDEFEkQzqmwE1Qc26HnHBBq1soStNi6MnUEF1C4yRYmWCLNh1zTlqz3Ik/eglBbdDIQmetIOYFeVItvazXTXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\u2lis\\OneDrive\\Documents\\repositories\\kittycat-clubhouse1\\CatTree\\CatTree.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\u2lis\\.nuget\\packages\\bootstrap\\5.0.2\\bootstrap.5.0.2.nupkg.sha512",
+    "C:\\Users\\u2lis\\.nuget\\packages\\glyphicon\\1.0.1\\glyphicon.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,3 +10,15 @@ C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatToys.Data\o
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.csproj.CopyComplete
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.dll
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\bin\Debug\netcoreapp3.1\CatToys.Data.deps.json
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\bin\Debug\netcoreapp3.1\CatToys.Data.dll
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\bin\Debug\netcoreapp3.1\CatToys.Data.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\bin\Debug\netcoreapp3.1\CatToys.dll
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\bin\Debug\netcoreapp3.1\CatToys.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.csproj.AssemblyReference.cache
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.AssemblyInfoInputs.cache
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.AssemblyInfo.cs
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.csproj.CoreCompileInputs.cache
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.csproj.CopyComplete
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.dll
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys.Data\obj\Debug\netcoreapp3.1\CatToys.Data.pdb
