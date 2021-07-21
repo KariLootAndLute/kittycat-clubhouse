@@ -1,5 +1,6 @@
 using CatToys;
 using CatToys.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CatTree.Pages.Games
@@ -14,9 +15,14 @@ namespace CatTree.Pages.Games
             this.gameData = gameData;
         }
 
-        public void OnGet(int gameId)
+        public IActionResult OnGet(int gameId)
         {
             Game = gameData.GetById(gameId);
+            if (Game == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            return Page();
         }
     }
 }

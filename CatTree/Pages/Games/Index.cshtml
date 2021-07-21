@@ -28,13 +28,24 @@
         <th>@game.minAge</th>
         <th>@game.numberOfPeople</th>
         <th>@game.timeRange</th>
-        <th rowspan="2"> 
-            <a class="btn btn-lg" 
-               asp-page="./Detail" 
+        <th rowspan="2">
+            <a class="btn btn-lg"
+               asp-page="./Detail"
                asp-route-gameId="@game.Id">
                 <button type="button" class="btn btn-dark">
                     <i>
                         Info
+                    </i>
+                </button>
+            </a>
+        </th>
+        <th rowspan="2">
+            <a class="btn btn-lg"
+               asp-page="./Edit"
+               asp-route-gameId="@game.Id">
+                <button type="button" class="btn btn-dark">
+                    <i>
+                        Edit
                     </i>
                 </button>
             </a>
