@@ -20,5 +20,9 @@ namespace CatToys
 
         public string imageAlt { get; set; }
 
+        public string fulldescription { get; set; }
+
+        public string fullimage { get; set; }
+
     }
 }
