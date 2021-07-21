@@ -1,0 +1,23 @@
+﻿@page "{gameId:int}"
+@model CatTree.Pages.Games.DetailModel
+@{  ViewData["Title"] = "Detail";
+}
+
+<h2>@Model.Game.Name</h2>
+<div>
+    <img src="@Model.Game.image" alt="@Model.Game.image">
+</div>
+<div>
+    Description: @Model.Game.description
+</div>
+<div>
+    Minimum Age: @Model.Game.minAge
+</div>
+<div>
+    Number of People: @Model.Game.numberOfPeople
+</div>
+<div>
+    Time Range: @Model.Game.timeRange
+</div>
+
+<a asp-page="./Index" class="btn btn-outline-primary">All Games</a>

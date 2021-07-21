@@ -17,6 +17,8 @@ namespace CatTree.Pages.Games
 
         public string message { get; set; }
         public IEnumerable<GameModel> games;
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
 
         public IndexModel(IConfiguration config, IGameData gameData)
         { this.config = config;
@@ -26,7 +28,7 @@ namespace CatTree.Pages.Games
         public void OnGet()
         {
             //message = config["Message"];
-            games = gameData.GetAll();
+            games = gameData.GetGamesByName(SearchTerm);
         }
 
 

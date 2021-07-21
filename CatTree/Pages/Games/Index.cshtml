@@ -8,11 +8,11 @@
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" value="" />
-            <span class="">
-                <button class="">
-                    <i class="fa-solid fa-grin-hearts">
-
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-sm">
+                <button type="button" class="btn btn-dark"> 
+                    <i>
+                        Search
                     </i>
                 </button>
             </span>
@@ -23,11 +23,23 @@
 <table class="table">
        @foreach (var game in Model.games) { 
     <tr>
-        <th rowspan="2"><img src="@game.image" alt="@game.imageAlt" ></th>
+        <th rowspan="2"><img src="@game.image" alt="@game.imageAlt"></th>
         <th>@game.Name</th>
         <th>@game.minAge</th>
         <th>@game.numberOfPeople</th>
         <th>@game.timeRange</th>
+        <th rowspan="2"> 
+            <a class="btn btn-lg" 
+               asp-page="./Detail" 
+               asp-route-gameId="@game.Id">
+                <button type="button" class="btn btn-dark">
+                    <i>
+                        Info
+                    </i>
+                </button>
+            </a>
+        </th>
+
     </tr>
 	<tr>
 		<td colspan=4>@game.description</td>
