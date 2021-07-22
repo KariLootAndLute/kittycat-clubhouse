@@ -26,9 +26,17 @@
                 <td colspan="3"><em>Description: </em> @Model.Game.fulldescription</td>
             </tr>
             <tr>
-                <td><a href="@Model.Game.sellSheet">Sell Sheet</a></td>
+                @if (@Model.Game.sellSheet is null)
+                { <td></td>}
+                else
+                { <td><a href="@Model.Game.sellSheet">Sell Sheet</a></td>}
+
                 <td></td>
-                <td><a href="@Model.Game.BGGlink">BGG Link</a></td>
+
+                @if (@Model.Game.sellSheet is null)
+                { <td></td>}
+                else
+                {  <td><a href="@Model.Game.BGGlink">BGG Link</a></td>}                
             </tr>
         </table>
     </div>

@@ -48,8 +48,8 @@ namespace CatToys.Data
                     fullimage = "/images/caticon.png",
                     launchBit = 0,
                     imageAlt = "Appurritions_cat_Picture",
-                    sellSheet = "https://boardgamegeek.com/boardgame/333293/potions-puppies",
-                    BGGlink = "https://boardgamegeek.com/boardgame/333293/potions-puppies"
+                    sellSheet = null,
+                    BGGlink = null
                 }
             };
         }
