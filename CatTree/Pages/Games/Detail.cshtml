@@ -4,8 +4,13 @@
 }
 
 <h2>
-    <div class="text-center">@Model.Game.Name</div>
+    <div class="text-center"><em>@Model.Game.Name</em></div>
 </h2>
+
+@if (@Model.Game.launchBit == 1)
+{
+    <div class="text-center">Coming @Model.Game.launchDate</div>
+}
 <div class="container">
     <div>
         <img class="figure-img MainPicture" src="@Model.Game.fullimage" alt="@Model.Game.image">

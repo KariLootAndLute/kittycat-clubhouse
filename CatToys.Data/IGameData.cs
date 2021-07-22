@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace CatToys.Data
@@ -32,6 +30,7 @@ namespace CatToys.Data
                     image = "/images/puppyicon.png",
                     fullimage = "/images/puppyicon.png",
                     imageAlt = "Potions_and_Puppies_Picture",
+                    launchBit = 1,
                     sellSheet = "https://boardgamegeek.com/boardgame/333293/potions-puppies",
                     BGGlink = "https://boardgamegeek.com/boardgame/333293/potions-puppies"
                 },
@@ -47,10 +46,10 @@ namespace CatToys.Data
                     numberOfPeople = "2+ Players", 
                     image = "/images/caticon.png",
                     fullimage = "/images/caticon.png",
+                    launchBit = 0,
                     imageAlt = "Appurritions_cat_Picture",
                     sellSheet = "https://boardgamegeek.com/boardgame/333293/potions-puppies",
                     BGGlink = "https://boardgamegeek.com/boardgame/333293/potions-puppies"
-
                 }
             };
         }

@@ -1,6 +1,6 @@
 ﻿@page
 @model CatTree.Pages.Games.IndexModel
-@{
+@{ 
 }
 
 <h1>Games</h1>
@@ -21,8 +21,18 @@
 </form>
 
 <table class="table">
-       @foreach (var game in Model.games) { 
+       @foreach (var game in Model.games) {
     <tr>
+        @if (game.launchBit == 1)
+        {
+            <th rowspan="2"><img src="~/images/comingsoonannouncementhanging.png" width="100" height="100"></th>
+            
+        }
+        else
+        {
+            <th rowspan="2"></th>
+
+        }
         <th rowspan="2"><img src="@game.image" alt="@game.imageAlt"></th>
         <th>@game.Name</th>
         <th>@game.minAge</th>

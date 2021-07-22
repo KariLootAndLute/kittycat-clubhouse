@@ -72,7 +72,9 @@ C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\D
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\CatTree.TagHelpers.output.cache
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\CatTree.RazorCoreGenerate.cache
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Detail.cshtml.g.cs
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Index.cshtml.g.cs
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\NotFound.cshtml.g.cs
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -86,5 +88,3 @@ C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\D
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\CatTree.dll
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\CatTree.pdb
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\CatTree.genruntimeconfig.cache
-C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Detail.cshtml.g.cs
-C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatTree\obj\Debug\netcoreapp3.1\Razor\Pages\Games\NotFound.cshtml.g.cs

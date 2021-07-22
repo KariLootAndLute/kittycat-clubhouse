@@ -26,5 +26,7 @@ namespace CatToys
         public string BGGlink { get; set; }
         public string sellSheet { get; set; }
 
+        public byte launchBit { get; set; }
+
     }
 }
