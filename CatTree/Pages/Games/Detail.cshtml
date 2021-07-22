@@ -27,20 +27,28 @@
             </tr>
             <tr>
                 @if (@Model.Game.sellSheet is null)
-                { <td></td>}
+                {
+                    <td></td>
+}
                 else
-                { <td><a href="@Model.Game.sellSheet">Sell Sheet</a></td>}
+                {
+                    <td><a href="@Model.Game.sellSheet">Sell Sheet</a></td>
+}
 
                 <td></td>
 
                 @if (@Model.Game.sellSheet is null)
-                { <td></td>}
+                {
+                    <td></td>
+}
                 else
-                {  <td><a href="@Model.Game.BGGlink">BGG Link</a></td>}                
+                {
+                    <td><a href="@Model.Game.BGGlink">BGG Link</a></td>
+}
             </tr>
         </table>
     </div>
+    <a asp-page="./Index" class="btn btn-dark">All Games</a>
+
+    <br />
 </div>
-<br />
-<br />
-<a asp-page="./Index" class="btn btn-dark">All Games</a>
