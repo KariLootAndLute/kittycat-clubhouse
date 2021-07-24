@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <div class="menu-logo">
-                    <img src="~/images/newlogo.png"  alt="Loot and Lute logo" width="75" height="75">
+                    <img src="~/images/newlogo.png" alt="Loot and Lute logo" width="75" height="75">
                 </div>
                 <a class="navbar-brand" asp-area="" asp-page="/Index">LootandLute</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -46,6 +46,13 @@
         </main>
     </div>
 
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+
     <footer class="border-top footer text-muted">
         <div class="text-center">
             <a href="https://mailchi.mp/93eaa20f52c0/lootandlute" style="text-decoration: none"><font face="roboto" size="5" color="#2DAC94">Click <font color="#D76395">Here</font> to Sign Up for Updates!</font></a>
@@ -67,10 +74,5 @@
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @RenderSection("Scripts", required: false)
 </body>
 </html>
