@@ -1,0 +1,63 @@
+﻿@page "{gameId:int}"
+@model CatTree.Pages.Games.DetailModel
+@{ ViewData["Title"] = "Detail";
+}
+
+<div class="text-center">
+    <h2>
+        <em>@Model.Game.Name</em>
+    </h2>
+</div>
+
+
+@if (@Model.Game.launchBit == 1)
+{
+    <div class="text-center">Coming @Model.Game.launchDate</div>
+}
+<div class="container">
+    <div>
+        <img class="figure-img MainPicture" src="@Model.Game.fullimage" alt="@Model.Game.image">
+    </div>
+    <div>
+        <table class="table">
+            <tr>
+                <td><em>Minimum Age: </em>@Model.Game.minAge</td>
+                <td><em>Number of People: </em>@Model.Game.numberOfPeople</td>
+                <td><em>Time Range: </em>@Model.Game.timeRange</td>
+            </tr>
+            <tr>
+                <td colspan="3"><em>Description: </em> @Model.Game.fulldescription</td>
+            </tr>
+            <tr>
+                @if (@Model.Game.sellSheet is null)
+                {
+                    <td></td>
+}
+                else
+                {
+                    <td><a href="@Model.Game.sellSheet">Sell Sheet</a></td>
+}
+
+                <td></td>
+
+                @if (@Model.Game.sellSheet is null)
+                {
+                    <td></td>
+}
+                else
+                {
+                    <td><a href="@Model.Game.BGGlink">BGG Link</a></td>
+}
+            </tr>
+            <tr>
+                <td>
+                   <a asp-controller="Games" asp-action="Index" class="btn btn-dark">All Games</a>
+                </td>
+                <td colspan="2">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br />
+</div>

@@ -28,7 +28,7 @@ namespace CatTree
         {
             services.AddSingleton<IGameData, InMemoryGameData>();
 
-            services.AddRazorPages();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +54,10 @@ namespace CatTree
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllerRoute(
+                    "default",
+                    "/{controller}/{action}/{id?}",
+                    new { controller = "Home", action = "Index" });
             });
         }
     }
