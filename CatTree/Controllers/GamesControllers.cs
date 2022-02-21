@@ -13,7 +13,6 @@ namespace CatTree.Controllers
             return View();
         }
         
-        [HttpGet("GameDetail")]
         public IActionResult Detail()
         {
             return View();
@@ -22,6 +21,6 @@ namespace CatTree.Controllers
         public IActionResult _NotFound()
         {
             return View();
-                }
+        }
     }
 }
