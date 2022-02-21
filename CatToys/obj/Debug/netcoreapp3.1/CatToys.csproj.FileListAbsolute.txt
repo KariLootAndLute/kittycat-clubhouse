@@ -15,3 +15,4 @@ C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys\obj\D
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys\obj\Debug\netcoreapp3.1\CatToys.csproj.CoreCompileInputs.cache
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys\obj\Debug\netcoreapp3.1\CatToys.dll
 C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys\obj\Debug\netcoreapp3.1\CatToys.pdb
+C:\Users\u2lis\OneDrive\Documents\repositories\kittycat-clubhouse1\CatToys\obj\Debug\netcoreapp3.1\CatToys.csproj.AssemblyReference.cache
