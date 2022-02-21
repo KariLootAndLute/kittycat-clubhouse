@@ -20,7 +20,9 @@ border-top{
     float: left;
 }
 
-.footer-top {
+.footer {
+    clear:both;
+    height: 60px;
 }
 
 
