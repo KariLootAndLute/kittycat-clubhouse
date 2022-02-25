@@ -21,7 +21,10 @@
                 <a href="https://www.youtube.com/channel/UCrHzlMfio8KsSEoIDIp9WBg"><img src="~/images/youtube.jpg" alt="Loot and Lute logo"></a>
             </li>
         </ul>
-     </nav>
+    </nav>
+</div>
+<div class="text-center">
+    <a href="https://mailchi.mp/93eaa20f52c0/lootandlute" style="text-decoration: none"><font face="roboto" size="5" color="#2DAC94">Click <font color="#D76395">Here</font> to Sign Up for Updates!</font></a>
 </div>
 
 
@@ -29,33 +32,33 @@
 
 @*<div class="floatLeft30">
 
-</div>
-<div class="floatRight30">
-    <div id="slider">
-        <div>
-            <a href="/Games"><img src="~/images/puppyicon.png" alt="Loot and Lute logo"></a>
-        </div>
-        <div>
-            <a href="/Games"><img src="~/images/caticon.png" alt="Loot and Lute logo"></a>
-        </div>
-        <div>
-            <a href="https://www.youtube.com/channel/UCrHzlMfio8KsSEoIDIp9WBg"><img src="~/images/youtube.jpg" alt="Loot and Lute logo"></a>
+    </div>
+    <div class="floatRight30">
+        <div id="slider">
+            <div>
+                <a href="/Games"><img src="~/images/puppyicon.png" alt="Loot and Lute logo"></a>
+            </div>
+            <div>
+                <a href="/Games"><img src="~/images/caticon.png" alt="Loot and Lute logo"></a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/channel/UCrHzlMfio8KsSEoIDIp9WBg"><img src="~/images/youtube.jpg" alt="Loot and Lute logo"></a>
+            </div>
         </div>
     </div>
-</div>
 
-</div>
-@section scripts{
-    <script>
-    $("#slider > div:gt(0)").hide();
-    $("#slider").height($("#slider > div > img").height());
-    setInterval(function () {
-        $('#slider > div:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slider');
-    }, 3000);
-    </script>
-}*@
+    </div>
+    @section scripts{
+        <script>
+        $("#slider > div:gt(0)").hide();
+        $("#slider").height($("#slider > div > img").height());
+        setInterval(function () {
+            $('#slider > div:first')
+              .fadeOut(1000)
+              .next()
+              .fadeIn(1000)
+              .end()
+              .appendTo('#slider');
+        }, 3000);
+        </script>
+    }*@
